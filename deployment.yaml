@@ -15,9 +15,5 @@ spec:
       containers:
         - name: my-app
           image: kartiksharmacs16/first-maven-app:latest
-          resources:
-            limits:
-              memory: "256Mi"
-              cpu: "500m"
           ports:
             - containerPort: 8080
